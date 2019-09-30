@@ -21,7 +21,9 @@ public class Lotto
 		System.out.println("5 : " + num5);
 		int num6 = Integer.parseInt(scan.nextLine());//String num6 = scan.nextLine();
 		System.out.println("6 : " + num6);
+		
 		Random r = new Random();
+		
 		int correctCnt = 0;
 		System.out.println("your number : " + num1 + " " + num2 + " " + num3 + " " + num4 + " " + num5 + " " + num6);
 		System.out.println("this week lottery : ");
