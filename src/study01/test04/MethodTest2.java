@@ -2,12 +2,12 @@ package study01.test04;
 
 public class MethodTest2 
 {
-	static void test()				//return °ªÀÌ ¾ø´Ù
+	static void test()				//return ê°’ì´ ì—†ë‹¤
 	{
 		System.out.println(1);
 	}
 	
-	static int getNum()				//method ÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀº void ¿Í void °¡ ¾Æ´Ñ, return °ªÀÌ ÀÖ´Â, ¾ø´Â °ÍÀ¸·Î ³ª´µ¾îÁø´Ù
+	static int getNum()				//method ì˜ ë°ì´í„°íƒ€ì…ì€ void ì™€ void ê°€ ì•„ë‹Œ, return ê°’ì´ ìˆëŠ”, ì—†ëŠ” ê²ƒìœ¼ë¡œ ë‚˜ë‰˜ì–´ì§„ë‹¤
 	{
 		return 0;
 	}

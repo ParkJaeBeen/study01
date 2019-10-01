@@ -6,12 +6,12 @@ public class ArrayTest
 {
 	public static void main(String[] args)
 	{
-		/*long l = 12345678912l;		//Á¤¼ö´Â int °¡ ±âº»Çü, longÀ¸·Î ³ªÅ¸³»·Á¸é µÚ¿¡ lÀ» Ãß°¡ÇØÁà¾ßÇÔ
+		/*long l = 12345678912l;		//ì •ìˆ˜ëŠ” int ê°€ ê¸°ë³¸í˜•, longìœ¼ë¡œ ë‚˜íƒ€ë‚´ë ¤ë©´ ë’¤ì— lì„ ì¶”ê°€í•´ì¤˜ì•¼í•¨
 		
 		double db = 1.1;
-		float f = 1.1f;		//½Ç¼ö´Â double ÀÌ ±âº»Çü, floatÀ¸·Î ³ªÅ¸³»·Á¸é µÚ¿¡ f¸¦ Ãß°¡ÇØÁà¾ßÇÔ
+		float f = 1.1f;		//ì‹¤ìˆ˜ëŠ” double ì´ ê¸°ë³¸í˜•, floatìœ¼ë¡œ ë‚˜íƒ€ë‚´ë ¤ë©´ ë’¤ì— fë¥¼ ì¶”ê°€í•´ì¤˜ì•¼í•¨
 		
-		byte = 8bit = 2ÀÇ 7½Â
+		byte = 8bit = 2ï¿½ï¿½ 7ï¿½ï¿½
 		short = 2byte
 		int = 4
 		long = 8
@@ -22,7 +22,7 @@ public class ArrayTest
 		
 		int[] nums = new int[6];
 		
-		for(int i=0;i<nums.length;i++)		// "."(Á¡) µÚ¿¡ () °¡ ¾øÀ¸¸é ¼Ó¼º , ÀÖÀ¸¸é µ¿»çÀûÀÎ ÀÇ¹Ì(ÇàÀ§)
+		for(int i=0;i<nums.length;i++)		// "."(ì ) ë’¤ì— () ê°€ ì—†ìœ¼ë©´ ì†ì„± , ìˆìœ¼ë©´ ë™ì‚¬ì ì¸ ì˜ë¯¸(í–‰ìœ„)
 		{
 			nums[i] = r.nextInt(6) + 1;
 			for(int h = i - 1;h >= 0;h--)

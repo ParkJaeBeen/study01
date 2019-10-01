@@ -1,10 +1,10 @@
 package study01.test04;
 
-public class ObjectTest 				//Á¢±ÙÁ¦¾îÀÚ - public protected private - ¾Æ¹«°Íµµ ¾È½èÀ»¶§´Â default
-{										//public - ¸ğµç°÷¿¡¼­ »ç¿ë°¡´É   
-	int age;							//protected - °°ÀºÆĞÅ°Áö ³»¿¡¼­ »ç¿ë°¡´É, ¸¸¾à »ó¼Ó¹Ş¾Ò´Ù¸é ±×°÷¿¡¼­µµ »ç¿ë°¡´É
-	String name;						//default - °°Àº ÆĞÅ°Áö ³»¿¡¼­ »ç¿ë°¡´É
-										//private - °°Àº class ³»¿¡¼­¸¸ »ç¿ë°¡´É
+public class ObjectTest 				//ì ‘ê·¼ì œì–´ì - public protected private - ì•„ë¬´ê²ƒë„ ì•ˆì¼ì„ë•ŒëŠ” default
+{										//public - ëª¨ë“ ê³³ì—ì„œ ì‚¬ìš©ê°€ëŠ¥
+	int age;							//protected - ê°™ì€íŒ¨í‚¤ì§€ ë‚´ì—ì„œ ì‚¬ìš©ê°€ëŠ¥, ë§Œì•½ ìƒì†ë°›ì•˜ë‹¤ë©´ ê·¸ê³³ì—ì„œë„ ì‚¬ìš©ê°€ëŠ¥
+	String name;						//default - ê°™ì€ íŒ¨í‚¤ì§€ ë‚´ì—ì„œ ì‚¬ìš©ê°€ëŠ¥
+										//private - ê°™ì€ class ë‚´ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥
 	String getSrt()
 	{
 		return null;
@@ -12,7 +12,7 @@ public class ObjectTest 				//Á¢±ÙÁ¦¾îÀÚ - public protected private - ¾Æ¹«°Íµµ ¾
 	
 	public static void main(String[] args)
 	{
-		ObjectTest ot = new ObjectTest();				//ObjectTest method ¾È¿¡ º¯¼öµéÀ» ¸ğµÎ ÃÊ±âÈ­
+		ObjectTest ot = new ObjectTest();				//ObjectTest method ì•ˆì— ë³€ìˆ˜ë“¤ì„ ëª¨ë‘ ì´ˆê¸°í™”
 		System.out.println(ot.name);
 		System.out.println(ot.age);
 	}

@@ -1,7 +1,7 @@
 package study01.test04;
 
-public class MethodTest 		//method(ÇÔ¼ö)´Â ¹«Á¶°Ç class ¾È¿¡ ÀÖ¾î¾ßÇÑ´Ù
-{								//class ¾È¿¡¼­´Â ¼±¾ğ¸¸ ÇÒ ¼ö ÀÖ´Ù
+public class MethodTest 		//method(í•¨ìˆ˜)ëŠ” ë¬´ì¡°ê±´ class ì•ˆì— ìˆì–´ì•¼í•œë‹¤
+{								//class ì•ˆì—ì„œëŠ” ì„ ì–¸ë§Œ í•  ìˆ˜ ìˆë‹¤
 	static int num = 1;
 	
 	static int num()
@@ -9,8 +9,8 @@ public class MethodTest 		//method(ÇÔ¼ö)´Â ¹«Á¶°Ç class ¾È¿¡ ÀÖ¾î¾ßÇÑ´Ù
 		return 0;
 	}
 	
-	public static void main(String[] args)				//static method ¿¡¼­ ½ÇÇà½ÃÅ°±â À§ÇØ¼­´Â º¯¼ö¸í ¾Õ¿¡ staticÀÌ ºÙ¾î¾ß ÇÑ´Ù
-	{													//method ¾È¿¡¼­´Â ¼±¾ğ°ú ½ÇÇàÀÌ °¡´ÉÇÏ´Ù
+	public static void main(String[] args)				//static method ì—ì„œ ì‹¤í–‰ì‹œí‚¤ê¸° ìœ„í•´ì„œëŠ” ë³€ìˆ˜ëª… ì•ì— staticì´ ë¶™ì–´ì•¼ í•œë‹¤
+	{													//method ì•ˆì—ì„œëŠ” ì„ ì–¸ê³¼ ì‹¤í–‰ì´ ê°€ëŠ¥í•˜ë‹¤
 		System.out.println(num);
 	}
 }
