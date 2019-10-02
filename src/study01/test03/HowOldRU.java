@@ -9,24 +9,25 @@ public class HowOldRU
 		Scanner scan = new Scanner(System.in);
 		System.out.println("how old are you?");
 		String age = scan.nextLine();
-		//System.out.println("³­" + age + "»ìÀÌ¾ß");
+		//System.out.println("ï¿½ï¿½" + age + "ï¿½ï¿½ï¿½Ì¾ï¿½");
 		int num = Integer.parseInt(age);
+		
 		
 		if(num <= 10)
 		{
-			System.out.println(num + "»ìÀº ¾î¸°ÀÌ");
+			System.out.println(num + "ï¿½ï¿½ï¿½ï¿½ ï¿½î¸°ï¿½ï¿½");
 		}
 		else if(num <= 20)
 		{
-			System.out.println(num + "»ìÀº Ã»¼Ò³â");
+			System.out.println(num + "ï¿½ï¿½ï¿½ï¿½ Ã»ï¿½Ò³ï¿½");
 		}
 		else if(num <= 40)
 		{
-			System.out.println(num + "»ìÀº Ã»³â");
+			System.out.println(num + "ï¿½ï¿½ï¿½ï¿½ Ã»ï¿½ï¿½");
 		}
 		else
 		{
-			System.out.println(num + "»ìÀº ²Á´ë");
+			System.out.println(num + "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 }

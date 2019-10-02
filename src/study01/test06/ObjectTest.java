@@ -1,6 +1,6 @@
 package study01.test06;
 
-public class ObjectTest 
+public class ObjectTest 								//파일명인 class 에만 public 을 사용 가능 - 파일명 class는 모든 접근제어자 사용가능
 {
 	int num1,num2;
 	String str = "";
