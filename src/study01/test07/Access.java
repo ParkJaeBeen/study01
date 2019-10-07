@@ -49,5 +49,6 @@ public class Access
 		System.out.println(c.getType());		//6.return된 String "korean short" 값이 출력됨
 		System.out.println(c.getName());
 		System.out.println(c.getAge());
+		System.out.println(c);
 	}
 }
