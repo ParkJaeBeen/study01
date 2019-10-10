@@ -25,6 +25,7 @@ public class OverLoading 	//method 명이 같을 때 괄호 내에 변수형을 
 	
 	public static void main(String[] args)
 	{
-		OverLoading O = new OverLoading();
+		OverLoading o = new OverLoading();
+		o.test();
 	}
 }
