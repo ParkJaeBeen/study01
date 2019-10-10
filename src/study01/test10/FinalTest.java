@@ -19,7 +19,7 @@ public class FinalTest extends FF
 		
 		FinalTest ft = new FinalTest();
 		System.out.println(ft instanceof Object);		//true
-//		System.out.println(ft instanceof FF);			//true
+		System.out.println(ft instanceof FF);			//true
 		System.out.println(ft instanceof FinalTest);	//true
 		FF ff = new FinalTest();
 		System.out.println(ff instanceof FinalTest);	//true
@@ -27,15 +27,15 @@ public class FinalTest extends FF
 		System.out.println(ft instanceof FinalTest);	//false
 		
 		ff = new FF();
-		ft = (FinalTest) ff;
-		System.out.println(ft instanceof FinalTest);	//error
+//		ft = (FinalTest) ff;
+//		System.out.println(ft instanceof FinalTest);	//error
 		
 		ff = new FF();
 		
 		if(ff instanceof FinalTest)						//ff가 FinalTest라고 불려도 될 때
 		{
 			ft = (FinalTest) ff;						//ff 의 형 변환 >> FinalTest 로
-		}
-		System.out.println(ff instanceof FinalTest);	//
+			System.out.println(ff instanceof FinalTest);		//instanceof = ff의 메모리가 정확히 무엇으로 되어있는지 알고싶을때
+		}												//if문 실행이 안됨
 	}
 }
