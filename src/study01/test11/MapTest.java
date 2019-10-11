@@ -15,10 +15,10 @@ public class MapTest
 	public static void main(String[] args)
 	{
 		HashMap<String,String> map = new HashMap<String,String>();		//HashMap<> <<- < (1) , (2) > 안의 값은 (1) = key, (2) = value
-//		map.put("이름","박재빈");				//이 value 는 key 이다 ex) 이 박재빈 은 이름 이다
+		map.put("이름","박재빈");				//이 value 는 key 이다 ex) 이 박재빈 은 이름 이다
 		map.put("나이","24");
-//		map.put("주소","경기도 일산");
-//		map.put("성별","남자");
+		map.put("주소","경기도 일산");
+		map.put("성별","남자");
 //		System.out.println(map);
 //		map.put("성별","여자");				//같은 key에 값을 저장할때는 마지막에 저장한 값이 덮어씌워진다
 //		System.out.println(map.get("이름"));	//map.get() 시 () 안쪽에 key 를 써주어야 한다

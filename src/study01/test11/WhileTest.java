@@ -9,17 +9,17 @@ public class WhileTest
 		 int i = 1;
 		 
 		 ArrayList<String> sl = new ArrayList<String>();
-//		 while(sl.size() < 5)
-//		 {
-//			 sl.add("add me");
-//			 System.out.println(sl.get(0));
-//		 }
-		 
-		 do 
+		 while(sl.size() < 5)
 		 {
-			 sl.add("add me to");
-		 } 
-			 while(sl.size() < 5);
+			 sl.add("add me");
+			 System.out.println(sl.get(0));
+		 }
+//		 
+//		 do 
+//		 {
+//			 sl.add("add me to");
+//		 } 
+//			 while(sl.size() < 5);
 		 
 		 
 	 }
