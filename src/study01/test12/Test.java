@@ -15,8 +15,14 @@ public class Test extends Father
 		System.out.println("a");
 	}
 	
+	public void a()
+	{
+		
+	}
+	
 	public static void main(String[] args)
 	{
-		Test t = new Test();
+		Father t = new Test();
+		((Test)t).a();
 	}
 }
