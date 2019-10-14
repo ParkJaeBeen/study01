@@ -9,7 +9,7 @@ public class Lotto
 	{
 		System.out.println("lottery~");
 		Scanner scan = new Scanner(System.in);
-		int num1 = Integer.parseInt(scan.nextLine());//String num1 = scan.nextLine(); //ÀÔ·Â ÈÄ ´ÙÀ½ ¶óÀÎ¿¡ ÀÔ·ÂµÇ´Â ¹®ÀÚ¸¦ ¹Ş¾ÆµéÀÓ
+		int num1 = Integer.parseInt(scan.nextLine());//String num1 = scan.nextLine(); //ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½Ô·ÂµÇ´ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ş¾Æµï¿½ï¿½ï¿½
 		System.out.println("1 : " + num1);
 		int num2 = Integer.parseInt(scan.nextLine());//String num2 = scan.nextLine();
 		System.out.println("2 : " + num2);
@@ -46,14 +46,14 @@ public class Lotto
 			if(num1 == rNum || num2 == rNum || num3 == rNum || num4 == rNum || num5 == rNum || num6 == rNum)
 			{
 				
-				System.out.println(" ¸Â¾Ò´Ù!");
+				System.out.println(" ë§ì•˜ë‹¤!");
 				correctCnt++;
 			}
 			else
 			{
-				System.out.println(" Æ²·È´Ù!");
+				System.out.println(" í‹€ë ¸ë‹¤!");
 			}
 		}
-		System.out.println("¸ÂÀº È½¼ö : " + correctCnt);
+		System.out.println("ë§ì€ íšŸìˆ˜ : " + correctCnt);
 	}
 }

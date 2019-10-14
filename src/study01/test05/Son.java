@@ -4,7 +4,7 @@ class Father
 {
 	void work()
 	{
-		System.out.println("fater is working");
+		System.out.println("father is working");
 	}
 }
 

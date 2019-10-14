@@ -15,19 +15,19 @@ public class HowOldRU
 		
 		if(num <= 10)
 		{
-			System.out.println(num + "���� ���");
+			System.out.println(num + "살이하는애기");
 		}
 		else if(num <= 20)
 		{
-			System.out.println(num + "���� û�ҳ�");
+			System.out.println(num + "살이하는 청소년");
 		}
 		else if(num <= 40)
 		{
-			System.out.println(num + "���� û��");
+			System.out.println(num + "살이하는 청년");
 		}
 		else
 		{
-			System.out.println(num + "���� ����");
+			System.out.println(num + "살이상은 꼰대");
 		}
 	}
 }

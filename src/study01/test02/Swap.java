@@ -23,5 +23,6 @@ public class Swap
 		nums[2] = tmpNums[2];
 		nums[3] = 7;
 		System.out.println(nums[3]);*/
+		
 	}
 }

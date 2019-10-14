@@ -10,7 +10,7 @@ public class ArrayTest
 		for(int i = 0;i < nums.length;i++)
 		{
 			nums[i] = (i+1) * 2;
-			System.out.println("³ª´Â "+ i +" ¹ø ¹æÀÇ " + nums[i]);
+			System.out.println("int ë°°ì—´  "+ i +"ë²ˆì§¸ë°©ì˜  " + nums[i]);
 		}
 	}
 }

@@ -1,9 +1,6 @@
-package study01.test11;
+package study01.test13;
 
-
-
-
-public class Why 
+public class MapTest 
 {
 	public static void main(String[] args)
 	{

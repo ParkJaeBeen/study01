@@ -18,25 +18,45 @@ public class ArrayTest
 		
 		char = 2
 		*/
+//		Random r = new Random();
+//		
+//		int[] nums = new int[6];
+//		
+//		for(int i=0;i<nums.length;i++)		// "."(점) 뒤에 () 가 없으면 속성 , 있으면 동사적인 의미(행위)
+//		{
+//			nums[i] = r.nextInt(6) + 1;
+//			for(int h = i - 1;h >= 0;h--)
+//			{
+//				if(nums[i] == nums[h])
+//				{
+//					i--;
+//					break;
+//				}
+//			}
+//		}
+//		for(int i = 0; i < nums.length;i++)
+//		{
+//			System.out.println(nums[i]);
+//		}
 		Random r = new Random();
+		int[] inta = new int[5];
 		
-		int[] nums = new int[6];
-		
-		for(int i=0;i<nums.length;i++)		// "."(점) 뒤에 () 가 없으면 속성 , 있으면 동사적인 의미(행위)
+		for(int i = 0; i<inta.length; i++)
 		{
-			nums[i] = r.nextInt(6) + 1;
-			for(int h = i - 1;h >= 0;h--)
+			inta[i] = r.nextInt(5) + 1;
+			for(int j=i-1; j>=0;j--)
 			{
-				if(nums[i] == nums[h])
+				if(inta[i] == inta[j])
 				{
 					i--;
 					break;
 				}
 			}
 		}
-		for(int i = 0; i < nums.length;i++)
+		for(int i = 0; i<inta.length;i++)
 		{
-			System.out.println(nums[i]);
+			System.out.println(inta[i]);
 		}
+		
 	}	
 }

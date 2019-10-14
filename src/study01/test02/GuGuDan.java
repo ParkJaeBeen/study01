@@ -6,7 +6,7 @@ public class GuGuDan
 	{
 		for(int i = 1; i < 10 ; i++)
 		{
-			System.out.print(i + "´Ü" + "   ");
+			System.out.print(i + "ë‹¨" + "   ");
 			for(int h = 1; h < 10 ; h++)
 			{
 				System.out.print(i + " X " + h + " = " + (i*h));

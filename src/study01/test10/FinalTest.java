@@ -24,7 +24,7 @@ public class FinalTest extends FF
 		FF ff = new FinalTest();
 		System.out.println(ff instanceof FinalTest);	//true
 		ff = new FF();
-		System.out.println(ft instanceof FinalTest);	//false
+		System.out.println(ff instanceof FinalTest);	//false
 		
 		ff = new FF();
 //		ft = (FinalTest) ff;
