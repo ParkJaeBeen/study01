@@ -27,5 +27,36 @@ public class MyListTest
 		mlt.add("2");
 		mlt.add("3");
 		System.out.println(mlt.str[0]+","+mlt.str[1]+","+mlt.str[2]);
+		
+		String s = "asd";
+		s.substring(1);									//substring으로 선언해도
+		System.out.println(s);							//s의 값이 바뀌는 것은 아니다		(asd)
+		
+		s = s.substring(1);								//값을 바꾸고싶을때는 substring으로 바뀐 값을 대입해주면 된다.
+		System.out.println(s);							//(sd)
+		
+		s = s.substring(1,2);							//1번방부터 2번방까지의 값만
+		System.out.println(s);							//출력된다(d)
+		
+		String h = "가나다라마바사아";
+		h = h.substring(0, h.length() - 1);
+		System.out.println(h);
+		
+		String[] strs = new String[5];
+		strs[0] = "1";
+		strs[1] = "2";
+		strs[2] = "3";
+		strs[3] = "4";
+		strs[4] = "5";
+		
+		String str = "[";
+		for(int i = 0; i<strs.length;i++)
+		{
+			str += strs[i] + ",";
+		}
+		str = str.substring(0,str.length() - 1);
+		str += "]";
+		
+		System.out.println(str);	
 	}
 }
