@@ -23,7 +23,6 @@ public class MapTest
 			hml.add(hm);
 		}
 		
-		
 		for(int i = 0; i < hml.size();i++)
 		{
 			System.out.println(hml.get(i));
